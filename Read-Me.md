@@ -7,36 +7,17 @@ In this simulation a random real number(double) is generated and manipulated int
 
 The generated and manipulated value is then used as a parameter for the function f, which is the mathematical function f(x)=3x^4-10
 
+An estimated integral is found by repeatedly evaluating the function at random values between the given range,summing the function values, and calculating the mean value. In this project the value of the function at random points is calculated 99000 times, since the more iterations under the Monte Carlo simulation the higher levels of accuracy.
 
-Unlike a normal forecasting model, Monte Carlo Simulation predicts a set of outcomes based on an estimated range of values versus a set of fixed input values. In other words, a Monte Carlo Simulation builds a model of possible results by leveraging a probability distribution, such as a uniform or normal distribution, for any variable that has inherent uncertainty. It, then, recalculates the results over and over, each time using a different set of random numbers between the minimum and maximum values. In a typical Monte Carlo experiment, this exercise can be repeated thousands of times to produce a large number of likely outcomes.
+Then by hardcoding the definite value of the one dimensional integral, I compared the Monte Carlo Integration result with the actual value of the integral and calculated the error percentage of accuracy. The Monte Carlo Integration is much more accurate at higher level functions.
 
-Monte Carlo Simulations are also utilized for long-term predictions due to their accuracy. As the number of inputs increase, the number of forecasts also grows, allowing you to project outcomes farther out in time with more accuracy. When a Monte Carlo Simulation is complete, it yields a range of possible outcomes with the probability of each result occurring.
+## **Key Learnings**
+* Improved readability
+* Deep Understanding of calculus 
+* Probabilistic Determination
+* removed the JAVA util package
 
-## **Getting Started**
-Dependencies
-Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-ex. Windows 10
-## **Installing**
-How/where to download your program
-Any modifications needed to be made to files/folders
-Executing program
-How to run the program
-Step-by-step bullets
-code blocks for commands
-## **Help**
-Any advise for common problems or issues.
-
-command to run if program contains helper info
 ## **Authors**
-Contributors names and contact info
+Emily Peguero Marmolejos
+@Emilymania
 
-ex. Dominique Pizzie
-ex. @DomPizzie
-
-## **Version History**
-0.2
-Random double values were originally generated using JAVA's util random package, but current;y uses Math.random 
-Various bug fixes and optimizations
-See commit change or See release history
-0.1
-Initial Release
